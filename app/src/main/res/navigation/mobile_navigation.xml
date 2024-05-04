@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_home">
+
+    <fragment
+        android:id="@+id/navigation_home"
+        android:name="diego.arriaza.emulador_20200201_diego.ui.home.HomeFragment"
+        android:label="Inicio"
+        tools:layout="@layout/fragment_home" />
+
+    <fragment
+        android:id="@+id/contactanos"
+        android:name="diego.arriaza.emulador_20200201_diego.Contactanos"
+        android:label="Contactanos"
+        tools:layout="@layout/fragment_contactanos" />
+    <fragment
+        android:id="@+id/perfil"
+        android:name="diego.arriaza.emulador_20200201_diego.Perfil"
+        android:label="Perfil"
+        tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/informacion"
+        android:name="diego.arriaza.emulador_20200201_diego.Informacion"
+        android:label="Información"
+        tools:layout="@layout/fragment_informacion" />
+</navigation>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@drawable/ic_home_black_24dp"
+        android:title="Inicio" />
+
+    <item
+        android:id="@+id/perfil"
+        android:icon="@drawable/baseline_3p_24"
+        android:title="Perfil" />
+
+    <item
+        android:id="@+id/informacion"
+        android:icon="@drawable/baseline_description_24"
+        android:title="Información" />
+
+    <item
+        android:id="@+id/contactanos"
+        android:icon="@drawable/ic_notifications_black_24dp"
+        android:title="Contactanos" />
+
+</menu>
